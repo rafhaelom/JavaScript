@@ -1,0 +1,8 @@
+var listaFilmes = ["https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMjA1NDYzMTEwMF5BMl5BanBnXkFtZTcwNjE5MjU1MQ@@._V1_UY268_CR9,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMTQyOTM4MDMxN15BMl5BanBnXkFtZTcwODg5NTQzMw@@._V1_UY268_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMGZjZDE2NjUtMzVkNy00N2UyLTg5MjYtYzY1ZmM1YWY3ZTZmXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_UY268_CR4,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMjI1MzM2ODEyMV5BMl5BanBnXkFtZTgwNTIzODAwMzE@._V1_UY268_CR2,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"]
+
+var nomeFilmes = ["Toy Story (1995)", "Velozes & Furiosos (2001)", "Velozes & Furiosos 4 (2009)", "Velozes & Furiosos 8 (2017)", "Tempestade (2007)", "Uma Noite no Museu (2006)", "Uma Noite no Museu 2 (2009)", "Uma Noite no Museu 3: O Segredo da Tumba (2014)", "Transformers (2007)"]
+
+for (var i = 0; i < listaFilmes.length; i++) {
+  document.write("<img src=" + listaFilmes[i] + ">")
+  document.write(nomeFilmes[i])
+}
